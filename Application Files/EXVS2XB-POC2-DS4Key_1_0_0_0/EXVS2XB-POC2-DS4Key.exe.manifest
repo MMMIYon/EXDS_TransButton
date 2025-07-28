@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EXVS2XB-POC2-DS4Key.exe" version="1.0.0.0" publicKeyToken="b3dfc313f89b4136" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="vsac25_Release.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EXVS2XB-POC2-DS4Key" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EXVS2XB-POC2-DS4Key.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EXVS2XB-POC2-DS4Key.exe" size="162728">
+      <assemblyIdentity name="EXVS2XB-POC2-DS4Key" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PyvUpBaV60MgMxepu/8G8q7dRptlSSpXsdkBxIvwHXM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EXVS2XB-POC2-DS4Key.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vsac25_Release.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vsgB4uU+lsH1m22dBLBIGkSQSIB5LTv4Cw7cpUBM14Y=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MMIYON\17388" issuerKeyHash="58a96672a490c032b18d5155c419057b9c5a38ae" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>M7d9G4h9JGo614cV4lebcGe8eABDr/CX/kqH9MG/dVQ=</DigestValue></Reference></SignedInfo><SignatureValue>I5kAQSLVMCo8nNlY0chprzUvAntHPjc6mp5bTcDAICvmd/WRljs9BC4nWfhXS+jEVE8rmB1Db+4lxEBeJxG7Y1jV9z0rCZW7itUZ97NF7BnlTeN2ztZS+He2wn0ANmgdbofE5f4nIZUD7FcjedL4ykKps8a4f20P59pxk/Qtuts=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>o2azFYnWROvgn7w3u7WHMdb8mVSb3wU7iKGMdcOJ5A85mhSfP9ikCO7dZqz/0GVQ7hEGH8CHqpBCiCb4aH+5mThNdDVUt/X2020pdTWftzofzfMh/F6TWjsSAOo93SW4B9a0G4DC4WImYfUuptz+TZTKkQGg5x76jRzrPswxR4E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5475bfc1f4874afe97f0af430078bc67709b57e21587d73a6a247d881b7db733" Description="" Url=""><as:assemblyIdentity name="EXVS2XB-POC2-DS4Key.exe" version="1.0.0.0" publicKeyToken="b3dfc313f89b4136" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MMIYON\17388</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sbti3ge7mTjumIhscPUzn4dgqUYsxQMxwPqUVGImDA0=</DigestValue></Reference></SignedInfo><SignatureValue>IZl1dzp4WTo1bxvG+bIFtPeB0rzj/c7VTL6BnyWRZIqWeeDn0fdYXBJh95zmWc2Dz9GIrtr9yuZ0YL/fy23KJv+lQ7dvxBXZyFnYEC+NXbj5yzd8EZo5EMiRUATuwnU0/sQTk1hcIi6cUy7tQXlsvnq0Vg+tzE+T2inASe6Sn80=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>o2azFYnWROvgn7w3u7WHMdb8mVSb3wU7iKGMdcOJ5A85mhSfP9ikCO7dZqz/0GVQ7hEGH8CHqpBCiCb4aH+5mThNdDVUt/X2020pdTWftzofzfMh/F6TWjsSAOo93SW4B9a0G4DC4WImYfUuptz+TZTKkQGg5x76jRzrPswxR4E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQdvFLhSqkxKVNA5UzV8chhzANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgATQBNAEkAWQBPAE4AXAAxADcAMwA4ADgwHhcNMjMxMTI0MTAwNzQzWhcNMjQxMTIzMTYwNzQzWjAjMSEwHwYDVQQDHhgATQBNAEkAWQBPAE4AXAAxADcAMwA4ADgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKNmsxWJ1kTr4J+8N7u1hzHW/JlUm98FO4ihjHXDieQPOZoUnz/YpAju3Was/9BlUO4RBh/Ah6qQQogm+Gh/uZk4TXQ1VLf19tNtKXU1n7c6H83zIfxek1o7EgDqPd0luAfWtBuAwuFiJmH1Lqbc/k2UypEBoOce+o0c6z7MMUeBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAGS9Bckfrw+uKPZLPlDiswFXF6jmGDtAKG0GII8l1YMIe6F5SfQe7sazF/FmSEZwncRLLzS1FIvwvAx8msN+mfuekmakIjF7r9XGoU4R31b19bIaHrcL9srJfztL1YrhbUjfru4jQCy1xa6n0QNMBNoeCiKM0Dd869goX51+HM+M=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
